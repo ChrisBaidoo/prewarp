@@ -1,13 +1,63 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background: #e9fbff;
+  color: #0f0e9f;
+
+  font-family: "averta-italic"-apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "averta-italic", "Source Sans Pro", "Helvetica", Arial,
+    sans-serif;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.wrapper {
+  margin: 50px auto;
+}
+
+/* @font-face {
+  font-family: averta-black;
+  src: url(.\assets\fonts\IntelligentDesign-AvertaBlack.otf);
+} */
+
+@font-face {
+  font-family: averta-italic;
+  src: url(./assets/fonts/IntelligentDesign-Averta-Thin.otf);
+}
+
+hr {
+  width: 100%;
+  position: relative;
+  padding: 0;
+  border: 0;
+  background-color: #0f0e9f;
+  height: 2px;
+}
+/* @font-face {
+  font-family: futura-black;
+  src: url(./assets/fonts/futura-black.woff2);
+} */
+
+/* .App {
+  background: #4c2a4c;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 700px;
+  color: #eee;
+  padding: 5px;
+  border-radius: 6px;
+} */
