@@ -20,6 +20,38 @@ h6 {
     sans-serif;
 }
 
+ol,
+ul {
+  list-style: none;
+}
+
+.buttons.style1 .button {
+  color: #0f0e9f;
+  border: solid 1px #0f0e9f;
+}
+
+.buttons.style1 li a {
+  display: flex;
+  width: auto;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  vertical-align: middle;
+  padding: 0 1.5625rem;
+  font-size: 0.875em;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  border-radius: 0.25rem;
+}
+
+.buttons li a {
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
