@@ -23,6 +23,8 @@ h6 {
 ol,
 ul {
   list-style: none;
+  text-align: right;
+  display: inline-block;
 }
 
 .buttons.style1 .button {
@@ -30,9 +32,12 @@ ul {
   border: solid 1px #0f0e9f;
 }
 
+.about-button {
+  text-align: right;
+}
+
 .buttons.style1 li a {
   display: flex;
-  width: auto;
   height: 3.125rem;
   line-height: 3.125rem;
   vertical-align: middle;
@@ -47,9 +52,19 @@ ul {
   text-decoration: none;
   text-align: center;
   white-space: nowrap;
-  max-width: 100%;
   align-items: center;
   justify-content: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  background-color: transparent;
+  width: 75%;
+  padding: 10px;
+  border-radius: 0.25rem;
+  border: solid 1px #0f0e9f;
+  margin-bottom: 15px;
 }
 
 code {
