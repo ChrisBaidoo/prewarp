@@ -36,6 +36,18 @@ ul {
   text-align: right;
 }
 
+.actions button {
+  background-color: transparent;
+  border: solid 1px #0f0e9f;
+  padding: 10px;
+  cursor: pointer;
+  height: 3.125rem;
+  padding: 0 1.5625rem;
+  font-size: 0.875em;
+  font-weight: 400;
+  border-radius: 0.25rem;
+}
+
 .buttons.style1 li a {
   display: flex;
   height: 3.125rem;
