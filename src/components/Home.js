@@ -73,22 +73,61 @@ const Home = () => {
         <hr />
       </div>
       <div className="row">
-        <div className="col-md-6 col-sm-6 mb-30px">
+        <div className="col-md-4 col-sm-4 mb-30px profile">
           <div>
-            <img src="/src/tom-barber.jpeg" alt="Tom Barber"></img>
+            <div className="profile-image">
+              <img
+                src={require("../assets/photos/tom-barber.jpeg")}
+                alt="Tom Barber"
+                width="80%"
+              />
+            </div>
             <h6>Tom Barber</h6>
             <p>CEO and Co-founder</p>
           </div>
-          <div>
+          <div className="profile-image">
+            <img
+              src={require("../assets/photos/tom-walker.jpeg")}
+              alt="Tom Walker"
+              width="80%"
+            />
+
             <h6>Tom Walker</h6>
             <p>CTO and Co-founder</p>
           </div>
         </div>
         <div class="col-md-6 col-sm-6">
-          <p>
-            Copyright 2020 Prewarp Limited Companies House No. 12345678 All
-            rights reserved Privacy Policy
-          </p>
+          <div className="profile">
+            <div>
+              <img
+                src={require("../assets/photos/imperial-college-london.png")}
+                alt="Imperial College London"
+                width="100%"
+              />
+            </div>
+            <div>
+              <img
+                src={require("../assets/photos/university-of-cambridge.png")}
+                alt="University of Cambridge"
+                width="100%"
+              />
+            </div>
+            <div>
+              <img
+                src={require("../assets/photos/PngItem_2839759.png")}
+                alt="Logo"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div>
+            <p>
+              Copyright 2020 Prewarp Limited Companies House No. 12345678 All
+              rights reserved Privacy Policy
+            </p>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-2 profile">
           <p>
             Lincoln Studios, The Biscuit Factory, Drummond Rd London SE16 4DG
             hello@prewarp.co

@@ -27,6 +27,10 @@ ul {
   display: inline-block;
 }
 
+.profile-image img {
+  border-radius: 100%;
+}
+
 .buttons.style1 .button {
   color: #0f0e9f;
   border: solid 1px #0f0e9f;
@@ -36,11 +40,18 @@ ul {
   text-align: right;
 }
 
+.actions {
+  text-align: right;
+  width: 75%;
+}
+
+.profile {
+  display: inline-flex;
+}
 .actions button {
   background-color: transparent;
   border: solid 1px #0f0e9f;
   padding: 10px;
-  cursor: pointer;
   height: 3.125rem;
   padding: 0 1.5625rem;
   font-size: 0.875em;
