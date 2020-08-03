@@ -82,8 +82,10 @@ const Home = () => {
                 width="80%"
               />
             </div>
-            <h6>Tom Barber</h6>
-            <p>CEO and Co-founder</p>
+            <div className="profile-details">
+              <h6>Tom Barber</h6>
+              <p>CEO and Co-founder</p>
+            </div>
           </div>
           <div className="profile-image">
             <img
@@ -91,9 +93,10 @@ const Home = () => {
               alt="Tom Walker"
               width="80%"
             />
-
-            <h6>Tom Walker</h6>
-            <p>CTO and Co-founder</p>
+            <div className="profile-details">
+              <h6>Tom Walker</h6>
+              <p>CTO and Co-founder</p>
+            </div>
           </div>
         </div>
         <div class="col-md-6 col-sm-6">
@@ -105,6 +108,15 @@ const Home = () => {
                 width="100%"
               />
             </div>
+
+            <div>
+              <img
+                src={require("../assets/photos/PngItem_2839759.png")}
+                alt="Logo"
+                width="100%"
+              />
+            </div>
+
             <div>
               <img
                 src={require("../assets/photos/university-of-cambridge.png")}
@@ -112,10 +124,11 @@ const Home = () => {
                 width="100%"
               />
             </div>
+
             <div>
               <img
-                src={require("../assets/photos/PngItem_2839759.png")}
-                alt="Logo"
+                src={require("../assets/photos/university-of-oxford.png")}
+                alt="University of Oxford"
                 width="100%"
               />
             </div>
@@ -129,8 +142,8 @@ const Home = () => {
         </div>
         <div class="col-md-2 col-sm-2 profile">
           <p>
-            Lincoln Studios, The Biscuit Factory, Drummond Rd London SE16 4DG
-            hello@prewarp.co
+            Lincoln Studios, <br />
+            The Biscuit Factory, Drummond Rd London SE16 4DG hello@prewarp.co
           </p>
         </div>
       </div>

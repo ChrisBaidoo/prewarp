@@ -29,6 +29,12 @@ ul {
 
 .profile-image img {
   border-radius: 100%;
+  text-align: center;
+}
+
+.profile-details {
+  text-align: center;
+  margin-top: 20px;
 }
 
 .buttons.style1 .button {
@@ -47,6 +53,7 @@ ul {
 
 .profile {
   display: inline-flex;
+  text-align: center;
 }
 .actions button {
   background-color: transparent;
