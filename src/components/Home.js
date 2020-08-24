@@ -103,16 +103,16 @@ const Home = () => {
           <div className="profile">
             <div>
               <img
-                src={require("../assets/photos/imperial-college-london.png")}
-                alt="Imperial College London"
+                src={require("../assets/photos/PngItem_2839759.png")}
+                alt="Logo"
                 width="100%"
               />
             </div>
 
             <div>
               <img
-                src={require("../assets/photos/PngItem_2839759.png")}
-                alt="Logo"
+                src={require("../assets/photos/imperial-college-london.png")}
+                alt="Imperial College London"
                 width="100%"
               />
             </div>
