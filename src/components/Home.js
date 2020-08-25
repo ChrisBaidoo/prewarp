@@ -4,11 +4,17 @@ const Home = () => {
   return (
     <div className="container">
       <div className="wrapper">
-        <div className="row">
-          <div className="col-md-6 col-sm-6 mb-30px">
-            <h1>Prewarp</h1>
+        <div className="row" id="nav">
+          <div className="col-md-6 col-sm-6">
+            <img
+              src={require("../assets/photos/prewarp_logo.png")}
+              width="100"
+              class="inline-block"
+              alt=""
+            />
+            <h1 className="logo-title">Prewarp</h1>
           </div>
-          <div className="col-md-6 col-sm-6 mb-30px">
+          <div className="col-md-6 col-sm-6">
             <div className="about-button">
               <ul className="buttons02 style1 buttons">
                 <li>
@@ -20,6 +26,23 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        {/* <div className="row">
+          <div className="col-md-6 col-sm-6">
+            <h1>Prewarp</h1>
+          </div>
+          <div className="col-md-6 col-sm-6">
+            <div className="about-button">
+              <ul className="buttons02 style1 buttons">
+                <li>
+                  <a href="#about" className="button n01">
+                    About
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> */}
 
         <div className="row" id="about">
           <div className="col-md-6 col-sm-6 mb-30px">
@@ -82,17 +105,20 @@ const Home = () => {
                 width="80%"
               />
             </div>
-            <div className="profile-details">
+            <div className="profile-details test-font">
               <h6>Tom Barber</h6>
               <p>CEO and Co-founder</p>
             </div>
           </div>
           <div className="profile-image">
-            <img
-              src={require("../assets/photos/tom-walker.jpeg")}
-              alt="Tom Walker"
-              width="80%"
-            />
+            <div className="profile-container">
+              <img
+                src={require("../assets/photos/tom-walker.jpeg")}
+                alt="Tom Walker"
+                width="80%"
+              />
+            </div>
+
             <div className="profile-details">
               <h6>Tom Walker</h6>
               <p>CTO and Co-founder</p>
@@ -101,7 +127,7 @@ const Home = () => {
         </div>
         <div class="col-md-6 col-sm-6">
           <div className="profile">
-            <div>
+            <div className="image-container">
               <img
                 src={require("../assets/photos/PngItem_2839759.png")}
                 alt="Logo"
@@ -109,7 +135,7 @@ const Home = () => {
               />
             </div>
 
-            <div>
+            <div className="image-container">
               <img
                 src={require("../assets/photos/imperial-college-london.png")}
                 alt="Imperial College London"
@@ -117,7 +143,7 @@ const Home = () => {
               />
             </div>
 
-            <div>
+            <div className="image-container">
               <img
                 src={require("../assets/photos/university-of-cambridge.png")}
                 alt="University of Cambridge"
@@ -125,7 +151,7 @@ const Home = () => {
               />
             </div>
 
-            <div>
+            <div className="image-container">
               <img
                 src={require("../assets/photos/university-of-oxford.png")}
                 alt="University of Oxford"
@@ -133,7 +159,7 @@ const Home = () => {
               />
             </div>
           </div>
-          <div>
+          <div className="copyrigt-info">
             <p>
               Copyright 2020 Prewarp Limited Companies House No. 12345678 All
               rights reserved Privacy Policy
