@@ -27,23 +27,6 @@ const Home = () => {
           </div>
         </div>
 
-        {/* <div className="row">
-          <div className="col-md-6 col-sm-6">
-            <h1>Prewarp</h1>
-          </div>
-          <div className="col-md-6 col-sm-6">
-            <div className="about-button">
-              <ul className="buttons02 style1 buttons">
-                <li>
-                  <a href="#about" className="button n01">
-                    About
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div> */}
-
         <div className="row" id="about">
           <div className="col-md-6 col-sm-6 mb-30px">
             <div>
