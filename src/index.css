@@ -19,6 +19,15 @@ h6 {
   font-family: "Source Sans Pro", "Helvetica", Arial, sans-serif;
 }
 
+a:hover {
+  background: yellow;
+  color: green;
+}
+
+input {
+  width: 100%;
+}
+
 ol,
 ul {
   list-style: none;
@@ -47,13 +56,8 @@ ul {
   border: solid 1px #000035;
 }
 
-.about-button {
-  text-align: right;
-}
-
 .actions {
   text-align: right;
-  width: 75%;
 }
 
 .profile {
@@ -95,7 +99,7 @@ form input[type="text"],
 form input[type="email"],
 form textarea {
   background-color: transparent;
-  width: 75%;
+  width: 100%;
   padding: 10px;
   border-radius: 0.25rem;
   border: solid 1px #000035;

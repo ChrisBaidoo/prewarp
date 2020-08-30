@@ -14,23 +14,12 @@ const Home = () => {
             />
             <h1 className="logo-title">Prewarp</h1>
           </div>
-          <div className="col-md-6 col-sm-6">
-            <div className="about-button">
-              <ul className="buttons02 style1 buttons">
-                <li>
-                  <a href="#about" className="button n01">
-                    About
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
 
-        <div className="row" id="about">
+        <div className="row">
           <div className="col-md-6 col-sm-6 mb-30px">
             <div>
-              <p id="text03">
+              <p>
                 <span>Launch product.</span>
                 <br /> <span>Capture demand.</span>
                 <br />
@@ -38,7 +27,7 @@ const Home = () => {
                   <s>Take on risk.</s>
                 </span>
               </p>
-              <p id="text04">
+              <p>
                 Removing guess work from product creation <br />
                 and inventrory management.
               </p>
@@ -46,29 +35,15 @@ const Home = () => {
           </div>
           <div class="col-md-6 col-sm-6">
             <p>In private beta. For information:</p>
-            <form id="form02">
-              <div className="inner">
+            <form>
+              <div>
                 <div className="field">
-                  <input
-                    type="text"
-                    name="fname"
-                    id="form02-fname"
-                    placeholder="Name"
-                    maxlength="128"
-                    required=""
-                  />
-                </div>
-                <div className="field">
-                  <input
-                    type="email"
-                    name="email"
-                    id="form02-email"
-                    placeholder="Email"
-                    maxlength="128"
-                  />
+                  <input type="text" placeholder="Name" maxlength="128" />
+
+                  <input type="email" placeholder="Email" maxlength="128" />
                 </div>
 
-                <div class="actions">
+                <div className="actions">
                   <button type="submit">Submit</button>
                 </div>
               </div>
