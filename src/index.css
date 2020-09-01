@@ -19,8 +19,8 @@ h6 {
   font-family: "Source Sans Pro", "Helvetica", Arial, sans-serif;
 }
 
-a:hover {
-  background: yellow;
+button:hover {
+  background-color: yellow;
   color: green;
 }
 
@@ -37,13 +37,14 @@ ul {
 
 .profile-image {
   width: 100px;
+  display: block;
+  margin: auto;
 }
 
 .profile-image img {
   border-radius: 100%;
   text-align: center;
   width: 100%;
-  height: auto;
 }
 
 .profile-details {
@@ -62,6 +63,16 @@ ul {
 
 .profile {
   display: inline-flex;
+  text-align: center;
+}
+
+h6 {
+  line-height: normal;
+}
+
+.profile-section {
+  margin-right: 10px;
+  display: block;
   text-align: center;
 }
 .actions button {
@@ -99,7 +110,6 @@ form input[type="text"],
 form input[type="email"],
 form textarea {
   background-color: transparent;
-  width: 100%;
   padding: 10px;
   border-radius: 0.25rem;
   border: solid 1px #000035;
@@ -111,7 +121,7 @@ form textarea {
 }
 
 .image-container {
-  width: 100px;
+  width: 100%;
   height: 60px;
   margin-right: 15px;
 }

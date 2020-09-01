@@ -55,7 +55,7 @@ const Home = () => {
       </div>
       <div className="row">
         <div className="col-md-4 col-sm-4 mb-30px profile">
-          <div>
+          <div className="profile-section">
             <div className="profile-image">
               <img
                 src={require("../assets/photos/tom-barber.jpeg")}
@@ -68,16 +68,16 @@ const Home = () => {
               <p>CEO and Co-founder</p>
             </div>
           </div>
-          <div className="profile-image">
-            <div className="profile-container">
+
+          <div className="profile-section">
+            <div className="profile-image">
               <img
                 src={require("../assets/photos/tom-walker.jpeg")}
                 alt="Tom Walker"
                 width="80%"
               />
             </div>
-
-            <div className="profile-details">
+            <div className="profile-details test-font">
               <h6>Tom Walker</h6>
               <p>CTO and Co-founder</p>
             </div>
@@ -122,6 +122,7 @@ const Home = () => {
               Copyright 2020 Prewarp Limited Companies House No. 12345678 All
               rights reserved Privacy Policy
             </p>
+            {/* Do the privacy policy */}
           </div>
         </div>
         <div class="col-md-2 col-sm-2 profile">
