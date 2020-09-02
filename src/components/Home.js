@@ -119,16 +119,23 @@ const Home = () => {
           </div>
           <div className="copyrigt-info">
             <p>
-              Copyright 2020 Prewarp Limited Companies House No. 12345678 All
-              rights reserved Privacy Policy
+              &copy; Copyright 2020 Prewarp Limited Companies House No. 12345678
+              All rights reserved
+              <a
+                href={require("../assets/pdfs/privacy-policy.pdf")}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Privacy Policy.
+              </a>
             </p>
-            {/* Do the privacy policy */}
           </div>
         </div>
         <div class="col-md-2 col-sm-2 profile">
           <p>
             Lincoln Studios, <br />
-            The Biscuit Factory, Drummond Rd London SE16 4DG hello@prewarp.co
+            The Biscuit Factory, Drummond Rd London SE16 4DG
+            <a href="mailto:hello@prewarp.co">hello@prewarp.co</a>
           </p>
         </div>
       </div>
