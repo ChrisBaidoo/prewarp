@@ -2,12 +2,7 @@ body {
   margin: 0;
   background: #fcfeff;
   color: #000035;
-
-  font-family: "averta-italic"-apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "averta-regular", "Arial", "sans-serif";
 }
 
 h1,
@@ -16,7 +11,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Sans Pro", "Helvetica", Arial, sans-serif;
+  font-family: "averta-bold", "Helvetica", Arial, sans-serif;
+  line-height: 1rem;
 }
 
 button:hover {
@@ -64,10 +60,6 @@ ul {
 .profile {
   display: inline-flex;
   text-align: center;
-}
-
-h6 {
-  line-height: normal;
 }
 
 .profile-section {
@@ -144,13 +136,18 @@ form textarea {
   margin: 50px auto;
 }
 
-.test-font {
-  font-family: averta-thin;
+.p-text {
+  margin-top: 30px;
 }
 
 @font-face {
-  font-family: averta-thin;
-  src: url("./assets/fonts/IntelligentDesign-Averta-Thin.otf");
+  font-family: averta-regular;
+  src: url("./assets/fonts/Intelligent Design - Averta-Regular.otf");
+}
+
+@font-face {
+  font-family: averta-bold;
+  src: url("./assets/fonts/Intelligent Design - Averta-Bold.otf");
 }
 
 hr {
@@ -161,17 +158,3 @@ hr {
   background-color: #000035;
   height: 2px;
 }
-/* @font-face {
-  font-family: futura-black;
-  src: url(./assets/fonts/futura-black.woff2);
-} */
-
-/* .App {
-  background: #4c2a4c;
-  margin: 30px auto;
-  width: 90%;
-  max-width: 700px;
-  color: #eee;
-  padding: 5px;
-  border-radius: 6px;
-} */

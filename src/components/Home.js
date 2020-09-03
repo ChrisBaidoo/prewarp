@@ -19,15 +19,12 @@ const Home = () => {
         <div className="row">
           <div className="col-md-6 col-sm-6 mb-30px">
             <div>
-              <p>
-                <span>Launch product.</span>
-                <br /> <span>Capture demand.</span>
-                <br />
-                <span>
-                  <s>Take on risk.</s>
-                </span>
-              </p>
-              <p>
+              <h3>Launch product.</h3> <br />
+              <h3>Capture demand.</h3> <br />
+              <h3>
+                <s>Take on risk.</s>
+              </h3>
+              <p className="p-text">
                 Removing guess work from product creation <br />
                 and inventrory management.
               </p>
@@ -63,7 +60,7 @@ const Home = () => {
                 width="80%"
               />
             </div>
-            <div className="profile-details test-font">
+            <div className="profile-details">
               <h6>Tom Barber</h6>
               <p>CEO and Co-founder</p>
             </div>
@@ -120,7 +117,8 @@ const Home = () => {
           <div className="copyrigt-info">
             <p>
               &copy; Copyright 2020 Prewarp Limited Companies House No. 12345678
-              All rights reserved
+              All rights reserved.
+              <br />
               <a
                 href={require("../assets/pdfs/privacy-policy.pdf")}
                 target="_blank"
@@ -135,7 +133,7 @@ const Home = () => {
           <p>
             Lincoln Studios, <br />
             The Biscuit Factory, Drummond Rd London SE16 4DG
-            <a href="mailto:hello@prewarp.co">hello@prewarp.co</a>
+            <a href="mailto:hello@prewarp.co"> hello@prewarp.co</a>
           </p>
         </div>
       </div>
